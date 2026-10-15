@@ -3,7 +3,7 @@ title: "Can vaccination make border quarantine safer?"
 subtitle: "What a Delta-era study reveals about travel and community protection"
 description: "Vaccines reduce border risks, but protection also depends on the virus and the community receiving travellers."
 author: "Xijun Wei"
-date: "2026-10-13"
+date: "2026-10-15"
 date-format: "D MMMM YYYY"
 categories: [Public health, Data stories]
 image: exposure.svg
