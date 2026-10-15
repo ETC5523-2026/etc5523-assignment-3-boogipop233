@@ -1,4 +1,209 @@
-/* css styles */
-.navbar-dark, .quarto-title-banner {
-  background-color: #006DAE;
+/* A shared, readable theme for the homepage, biography and data stories. */
+:root {
+  --ink: #26383c;
+  --heading: #143f46;
+  --accent: #176774;
+  --paper: #faf9f6;
+  --soft: #e8f0ee;
+  --line: #c5d5d1;
+}
+
+body {
+  color: var(--ink);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading);
+  font-weight: 650;
+  line-height: 1.25;
+}
+
+h1 { letter-spacing: -0.035em; }
+h2 { margin-top: 2rem; border-bottom: none; }
+p { margin-bottom: 1.15rem; }
+
+.navbar {
+  padding-block: 0.85rem;
+  box-shadow: none;
+}
+.navbar-brand { font-weight: 650; font-size: 1.05rem; }
+.navbar .nav-link { color: #ffffff; }
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.4em;
+}
+
+.quarto-title-banner {
+  background: var(--soft);
+  padding-block: clamp(2rem, 5vw, 4rem);
+  margin-bottom: 1.5rem;
+}
+.quarto-title-banner h1,
+.quarto-title-banner .title,
+.quarto-title-banner .subtitle,
+.quarto-title-banner .description { color: var(--heading); }
+.quarto-title-banner .title { font-size: clamp(2.3rem, 5vw, 3.5rem); }
+.quarto-title-banner .subtitle { font-size: 1.2rem; margin-top: 0.8rem; }
+.quarto-title-banner .description { font-size: 1rem; max-width: 42rem; }
+
+main.content { width: 100%; max-width: none; }
+.home-intro { font-size: 1.16rem; line-height: 1.65; }
+.home-note {
+  background: var(--soft);
+  border-left: 3px solid var(--accent);
+  padding: 1.1rem 1.3rem;
+  margin: 1.7rem 0;
+}
+.home-note p:last-child { margin-bottom: 0; }
+.author-link { font-weight: 600; }
+
+main a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+main a:hover { color: var(--heading); text-decoration-thickness: 2px; }
+a:focus-visible, button:focus-visible, input:focus-visible {
+  outline: 3px solid #b35e16;
+  outline-offset: 4px;
+}
+
+/* A consistent circular portrait and balanced biography layout. */
+div.quarto-about-jolla { padding-top: 2.5rem; }
+div.quarto-about-jolla .about-image {
+  width: 11rem;
+  height: 11rem;
+  max-width: 45vw;
+  max-height: 45vw;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 4px solid #ffffff;
+  box-shadow: 0 0 0 1px var(--line);
+  margin-bottom: 1.5rem;
+}
+div.quarto-about-jolla main.content { width: 100%; max-width: none; text-align: left; }
+div.quarto-about-jolla .about-link {
+  color: var(--heading);
+  border: 1px solid var(--accent);
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+div.quarto-about-jolla .about-link:hover {
+  background: var(--soft);
+  color: var(--heading);
+}
+
+.nav-footer {
+  border-top: 1px solid var(--line);
+  color: #506367;
+  font-size: 0.85rem;
+  padding-block: 1rem;
+}
+
+/* Editorial reading layout: restrained accents and usable evidence panels. */
+.quarto-title-banner .quarto-title .title { max-width: 20ch; }
+.quarto-title-banner .quarto-title .description { display: none; }
+.home-page .quarto-title-banner .quarto-title .title {
+  max-width: none;
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+}
+.home-page .quarto-title-banner .quarto-title .description {
+  display: block;
+  max-width: 60ch;
+  margin-top: 1.2rem;
+  font-size: 1.12rem;
+  line-height: 1.65;
+}
+.home-page .quarto-title-banner { margin-bottom: 0.5rem; }
+.home-page #quarto-document-content { padding-top: 0.5rem; }
+.nav-footer-left, .nav-footer-right { flex: 1 1 280px; }
+.nav-footer p { margin-bottom: 0; }
+.quarto-title .quarto-categories { margin-top: 1.2rem; gap: 0.5rem; }
+.quarto-title .quarto-categories .quarto-category {
+  color: var(--heading);
+  border-color: #729a9b;
+  border-radius: 2rem;
+  padding: 0.25rem 0.65rem;
+  opacity: 1;
+}
+.quarto-title-meta { margin-bottom: 1.2rem; }
+.quarto-title-meta-heading { color: #506367; }
+section.level2 { scroll-margin-top: 6rem; }
+#TOC { font-size: 0.84rem; line-height: 1.5; }
+#TOC .nav-link { padding-block: 0.4rem; color: #506367; }
+#quarto-margin-sidebar #TOC .nav-link.active {
+  color: var(--accent);
+  border-left-color: var(--accent);
+  font-weight: 600;
+}
+.evidence-panel {
+  scroll-margin-top: 7rem;
+  margin: 1.6rem 0;
+  padding: 1.3rem;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+}
+.evidence-panel h3 { font-size: 1.2rem; margin-top: 0; }
+.evidence-panel img { max-width: 100%; height: auto; }
+.evidence-panel figure { margin-bottom: 0.9rem; }
+figcaption, .table-caption, .source-note {
+  text-align: left;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: #44585c;
+}
+.source-note { margin-bottom: 1.5rem; }
+.evidence-panel .source-note { margin-bottom: 0; }
+.source-note p:last-child { margin-bottom: 0; }
+.scenario-panel table { width: 100%; font-size: 0.94rem; }
+.scenario-panel th { background: var(--heading); color: white; padding: 0.8rem; }
+.scenario-panel td { padding: 0.8rem; vertical-align: top; border-color: var(--line); }
+.scenario-panel tbody tr:nth-child(even) { background: #f2f6f5; }
+.scenario-panel tbody tr:last-child { background: #e8f0ee; }
+.scenario-panel th:nth-child(2),
+.scenario-panel td:nth-child(2) { font-variant-numeric: tabular-nums; }
+.scenario-panel caption { padding-top: 0; margin-bottom: 0.8rem; }
+.quarto-float { scroll-margin-top: 7rem; }
+.csl-entry { font-size: 0.92rem; line-height: 1.6; overflow-wrap: anywhere; }
+#refs .csl-entry { line-height: 2; }
+.quarto-listing-default .quarto-post {
+  border: 1px solid var(--line);
+  background: #ffffff;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-top: 1.3rem;
+  gap: 1.5rem;
+}
+.quarto-listing-default .quarto-post .listing-title { font-size: 1.45rem; line-height: 1.3; }
+.quarto-listing-default .quarto-post .listing-title a { color: var(--heading); }
+.quarto-listing-default .quarto-post .thumbnail img { object-fit: contain; background: white; }
+.quarto-listing-default .quarto-post .metadata { color: #506367; }
+
+@media (max-width: 767.98px) {
+  .quarto-title-banner .quarto-title .title { font-size: 2.1rem; }
+  .evidence-panel { padding: 0.8rem; }
+  .scenario-panel { padding: 0.6rem; }
+  .scenario-panel table { table-layout: fixed; font-size: 0.82rem; line-height: 1.5; }
+  .scenario-panel th, .scenario-panel td { padding: 0.55rem 0.35rem; overflow-wrap: break-word; }
+  .scenario-panel th:first-child { width: 31%; }
+  .scenario-panel th:nth-child(2) { width: 23%; }
+  .scenario-panel th:last-child { width: 46%; }
+  .quarto-listing-default .quarto-post { padding: 1rem; gap: 1rem; }
+}
+
+@media (max-width: 575.98px) {
+  body { font-size: 17px; }
+  .navbar-brand { font-size: 0.9rem; white-space: normal; }
+  .quarto-title-banner { padding-block: 2rem; }
+  .home-intro { font-size: 1.1rem; }
+  div.quarto-about-jolla { padding-top: 1rem; }
+  .nav-footer { gap: 0.5rem; }
 }

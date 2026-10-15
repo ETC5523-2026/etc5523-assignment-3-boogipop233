@@ -1,17 +1,45 @@
 project:
   type: website
+  output-dir: _site
 
 website:
-  title: "blog-template"
+  title: "COVID-19 Evidence Explained"
+  description: "Xijun Wei's student research blog on COVID-19 vaccination, transmission and public-health measures."
   navbar:
+    background: "#143f46"
+    foreground: "#ffffff"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: posts/vaccination-border-quarantine/index.qmd
+        text: Latest story
+      - href: about.qmd
+        text: About
     right:
-      - about.qmd
       - icon: github
-        href: https://github.com/etc5523-2022
+        text: GitHub
+        href: https://github.com/Boogipop233
+  page-footer:
+    left: "© 2026 Xijun Wei · Student project"
+    right: "Monash University · ETC5523 Communicating with Data"
 format:
   html:
     theme: cosmo
+    backgroundcolor: "#faf9f6"
+    fontcolor: "#26383c"
+    linkcolor: "#176774"
+    mainfont: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontsize: 18px
+    linestretch: 1.7
     css: styles.css
+    lang: en
+    toc: false
+    grid:
+      body-width: 900px
+      sidebar-width: 180px
+      margin-width: 180px
+      gutter-width: 24px
+    respect-user-color-scheme: false
 
 
 

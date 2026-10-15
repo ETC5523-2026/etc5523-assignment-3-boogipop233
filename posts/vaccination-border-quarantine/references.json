@@ -1,0 +1,205 @@
+[
+  {
+    "DOI": "10.1126/sciadv.abm3624",
+    "URL": "https://doi.org/10.1126/sciadv.abm3624",
+    "author": [
+      {
+        "family": "Zachreson",
+        "given": "Cameron"
+      },
+      {
+        "family": "Shearer",
+        "given": "Freya M."
+      },
+      {
+        "family": "Price",
+        "given": "David J."
+      },
+      {
+        "family": "Lydeamore",
+        "given": "Michael J."
+      },
+      {
+        "family": "McVernon",
+        "given": "Jodie"
+      },
+      {
+        "family": "McCaw",
+        "given": "James"
+      },
+      {
+        "family": "Geard",
+        "given": "Nicholas"
+      }
+    ],
+    "container-title": "Science Advances",
+    "id": "zachreson2022",
+    "issue": "14",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "title": "COVID-19 in low-tolerance border quarantine systems: Impact of the Delta variant of SARS-CoV-2",
+    "title-short": "COVID-19 in low-tolerance border quarantine systems",
+    "type": "article-journal",
+    "volume": "8",
+    "number": "eabm3624"
+  },
+  {
+    "DOI": "10.1002/mco2.95",
+    "author": [
+      {
+        "family": "He",
+        "given": "Xuemei"
+      },
+      {
+        "family": "He",
+        "given": "Cai"
+      },
+      {
+        "family": "Hong",
+        "given": "Weiqi"
+      },
+      {
+        "family": "Zhang",
+        "given": "Kang"
+      },
+      {
+        "family": "Wei",
+        "given": "Xiawei"
+      }
+    ],
+    "container-title": "MedComm",
+    "id": "he2021",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "page": "846-854",
+    "title": "The challenges of COVID-19 Delta variant: Prevention and vaccine development",
+    "title-short": "The challenges of COVID-19 Delta variant",
+    "type": "article-journal",
+    "volume": "2"
+  },
+  {
+    "DOI": "10.1002/jmv.27799",
+    "author": [
+      {
+        "family": "Torres",
+        "given": "Ignacio"
+      },
+      {
+        "family": "Bellido‐Blasco",
+        "given": "Juan B."
+      },
+      {
+        "family": "Gimeno",
+        "given": "Concepción"
+      },
+      {
+        "family": "Burgos",
+        "given": "Javier S."
+      },
+      {
+        "family": "Albert",
+        "given": "Eliseo"
+      },
+      {
+        "family": "Moya‐Malo",
+        "given": "Raúl"
+      },
+      {
+        "family": "Gascó‐Laborda",
+        "given": "Juan Carlos"
+      },
+      {
+        "family": "Tornero",
+        "given": "Ana"
+      },
+      {
+        "family": "Soriano",
+        "given": "Josefa"
+      },
+      {
+        "family": "Meseguer‐Ferrer",
+        "given": "Noemí"
+      },
+      {
+        "family": "Martínez‐Serrano",
+        "given": "María"
+      },
+      {
+        "family": "Ortíz‐Rambla",
+        "given": "Javier"
+      },
+      {
+        "family": "Buj",
+        "given": "Helena"
+      },
+      {
+        "family": "Hernández",
+        "given": "Noelia"
+      },
+      {
+        "family": "Peiró",
+        "given": "Salvador"
+      },
+      {
+        "family": "Salas",
+        "given": "Dolores"
+      },
+      {
+        "family": "Limón",
+        "given": "Ramón"
+      },
+      {
+        "family": "Vanaclocha",
+        "given": "Hermelinda"
+      },
+      {
+        "family": "Sánchez‐Payá",
+        "given": "José"
+      },
+      {
+        "family": "Díez‐Domingo",
+        "given": "Javier"
+      },
+      {
+        "family": "Comas",
+        "given": "Iñaki"
+      },
+      {
+        "family": "González‐Candelas",
+        "given": "Fernando"
+      },
+      {
+        "family": "Navarro",
+        "given": "David"
+      },
+      {
+        "literal": "the Valencian vaccine research program (ProVaVac) study group"
+      }
+    ],
+    "container-title": "Journal of Medical Virology",
+    "id": "torres2022",
+    "issue": "8",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "3776-3782",
+    "title": "SARS-CoV-2 Delta-variant breakthrough infections in nursing home residents at midterm after Comirnaty® COVID-19 vaccination",
+    "type": "article-journal",
+    "volume": "94"
+  }
+]
