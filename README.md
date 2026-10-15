@@ -4,6 +4,7 @@ A personal Quarto website by Xijun Wei for ETC5523: Communicating with Data at M
 
 - **Author:** Xijun Wei
 - **GitHub:** <https://github.com/Boogipop233>
+- **GitHub Pages URL:** <https://etc5523-2026.github.io/etc5523-assignment-3-boogipop233/>
 
 ## Intended audience
 
@@ -40,6 +41,10 @@ quarto preview
 ```powershell
 quarto render
 ```
+
+## Deployment
+
+The `Publish website to GitHub Pages` workflow publishes the committed `_site/` directory on pushes to `main` or a manual workflow run. The repository's Pages publishing source is GitHub Actions. Changes to source files require `quarto render` and a commit of the updated HTML and assets before publication.
 
 ## Generative AI declaration
 
