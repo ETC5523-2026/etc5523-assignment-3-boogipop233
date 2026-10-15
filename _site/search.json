@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "posts/vaccination-border-quarantine/index.html",
+    "href": "posts/vaccination-border-quarantine/index.html",
+    "title": "Can vaccination make border quarantine safer?",
+    "section": "",
+    "text": "A flight home can mean a family reunion, a return to university or the chance to restart a job. During the pandemic, it could also carry an infection into a community with little local transmission. Vaccination raised an understandable question: if travellers were vaccinated, how much protection did border quarantine still need to provide?\nThat question mattered on both sides of the border. Restrictions kept people apart and limited travel, while an imported infection could put a wider community at risk. In their review of Delta, He et al. (2021) summarised evidence of increased transmissibility and reduced vaccine effectiveness. These challenges complicated the hope that vaccination would make reopening straightforward.\nCan vaccination make border quarantine safer, and is vaccinating travellers enough to protect the people they return to? A study by Zachreson et al. (2022) examined both parts of that question. Its findings help explain why a high vaccination percentage, on its own, tells us too little about the protection a border system provides."
+  },
+  {
+    "objectID": "posts/vaccination-border-quarantine/index.html#following-an-infection-from-arrival-to-the-community",
+    "href": "posts/vaccination-border-quarantine/index.html#following-an-infection-from-arrival-to-the-community",
+    "title": "Can vaccination make border quarantine safer?",
+    "section": "Following an infection from arrival to the community",
+    "text": "Following an infection from arrival to the community\nThe researchers used computer simulations to follow infections through managed quarantine and then into the community. One model represented travellers, workers, testing and isolation. A second followed the chains of infection that could begin after a breach, when an infected traveller or worker exposed people outside quarantine.\nThose simulations drew on published estimates of infection progression, test sensitivity and vaccine effects. The team checked baseline behaviour against Australian quarantine breach reports collated by COVID Live, information from state health departments and official international-arrival statistics. The comparisons below are therefore model results, not counts from a trial of vaccinated travellers.\nThe models let the researchers separate three things often bundled together in public discussion: how readily the virus spreads, how much protection vaccination gives a person, and how many people in the community are vaccinated. Separating them reveals where vaccination helps, and where additional protection still matters."
+  },
+  {
+    "objectID": "posts/vaccination-border-quarantine/index.html#better-vaccine-protection-means-less-exposure",
+    "href": "posts/vaccination-border-quarantine/index.html#better-vaccine-protection-means-less-exposure",
+    "title": "Can vaccination make border quarantine safer?",
+    "section": "Better vaccine protection means less exposure",
+    "text": "Better vaccine protection means less exposure\nThe first benefit appears before community spread begins. When vaccination makes infection less likely, fewer infections can pass through the quarantine system. Figure 1 holds the virus at the same Delta-like level of transmissibility and changes vaccine efficacy: the reduction in susceptibility to infection provided by vaccination in the main model.\n\nStronger vaccine protection lowers exposure\nSame Delta-like transmissibility in every bar: R₀ = 6.\n\n\n\n\n\n\nFigure 1: Greater vaccine efficacy lowers modelled community exposure under the same Delta-like virus. The unvaccinated pre-Delta benchmark is 100.\n\n\n\n\nSource: selected cells from Figure 3 in Zachreson et al. (2022), multiplied by 100 and rounded. These are exposure indices, not case counts or outbreak probabilities. Quarantine rules and strong infection control are held constant; travellers and workers are vaccinated in the vaccine scenarios. The benchmark is unvaccinated, pre-Delta transmission (R₀ = 3).\n\n\nWithout vaccine protection, the Delta-like scenario produces an exposure index of 298, almost three times the pre-Delta benchmark. With 70% efficacy, that index falls to about 30. This is a large reduction even though quarantine remains in place: vaccination is helping the system contain a more transmissible virus.\nAn index of 30 does not mean 30 cases or a 30% chance of an outbreak. It means the modelled potential for breaches to cause secondary infections is about 30% of the benchmark level. The measure allows a fair comparison between scenarios without pretending to predict a particular community’s case count.\nThis comparison answers the first part of the opening question: vaccination can make quarantine safer. However, the size of that improvement depends on the virus it is up against. Keeping vaccine protection the same while changing transmissibility shows why."
+  },
+  {
+    "objectID": "posts/vaccination-border-quarantine/index.html#a-more-transmissible-virus-can-erode-that-gain",
+    "href": "posts/vaccination-border-quarantine/index.html#a-more-transmissible-virus-can-erode-that-gain",
+    "title": "Can vaccination make border quarantine safer?",
+    "section": "A more transmissible virus can erode that gain",
+    "text": "A more transmissible virus can erode that gain\nThe same vaccine protection does not produce the same result against every virus. Table 1 keeps efficacy at 70% and changes the basic reproduction number, R₀. This number describes how many people one infected person would infect on average in a fully susceptible population without controls. Higher values mean greater transmission potential; they are not the number of people infected inside quarantine.\n\n\n\n\nTable 1: At the same vaccine efficacy (70%), more transmissible scenarios generate more exposure. The pre-Delta unvaccinated benchmark is 100.\n\n\n\n\n\n\n\n\n\n\nVirus scenario\nExposure index\nWhat this means\n\n\n\n\nR₀ = 3 · Pre-Delta-like\n12\nFar below the benchmark\n\n\nR₀ = 6 · Delta-like\n30\nBelow the benchmark\n\n\nR₀ = 8 · Higher spread\n64\nStill below, with less protection relative to the benchmark\n\n\nR₀ = 10 · Higher spread\n117\nAbove the benchmark despite vaccination\n\n\n\n\n\n\n\n\nSource: selected cells from Figure 3 in Zachreson et al. (2022), multiplied by 100 and rounded. Vaccine efficacy is 70% throughout; all travellers and workers are vaccinated. Other model settings remain unchanged. Scenarios illustrate transmission differences, not observed estimates for four named variants.\n\nAt the highest transmission level shown, exposure exceeds the old benchmark despite vaccination. That does not make vaccination ineffective: it shows why a promise of safe reopening cannot rest on vaccination status alone. The earlier reduction in Figure 1 and the rising values in Table 1 describe two sides of the same result: vaccine protection and viral transmissibility must be considered together."
+  },
+  {
+    "objectID": "posts/vaccination-border-quarantine/index.html#protection-outside-quarantine-matters-too",
+    "href": "posts/vaccination-border-quarantine/index.html#protection-outside-quarantine-matters-too",
+    "title": "Can vaccination make border quarantine safer?",
+    "section": "Protection outside quarantine matters too",
+    "text": "Protection outside quarantine matters too\nEven a well-performing quarantine system can allow an infection through. What happens next depends partly on the community that infection reaches. This is where coverage, the share of people vaccinated, becomes important alongside efficacy, the protection vaccination provides.\nReal-world observations show why vaccination status alone cannot guarantee protection. Torres et al. (2022) documented Delta breakthrough infections in 39 of 201 vaccinated residents studied in two Spanish nursing homes. This older population differs from typical international travellers, so its infection rate should not be transferred to a border setting. The study illustrates that infections can still occur after vaccination; it does not validate the quarantine model’s numerical predictions."
+  },
+  {
+    "objectID": "posts/vaccination-border-quarantine/index.html#a-longer-delay-is-useful-but-not-a-guarantee",
+    "href": "posts/vaccination-border-quarantine/index.html#a-longer-delay-is-useful-but-not-a-guarantee",
+    "title": "Can vaccination make border quarantine safer?",
+    "section": "A longer delay is useful but not a guarantee",
+    "text": "A longer delay is useful but not a guarantee\nReturning to the community simulations in Zachreson et al. (2022), high coverage had much greater effects when vaccine efficacy was also high. With efficacy of at least 80%, the delay before outbreaks became likely rose sharply once coverage exceeded roughly 80%. At efficacy below 60%, increasing coverage produced much less improvement. A headline reporting high coverage therefore leaves an important question unanswered: how well is vaccination limiting transmission?\nThe researchers measured that delay as the time until the probability of at least one outbreak reached 50%. Using their Figure 4 definition, an outbreak was a cluster of at least five cases. Under favourable combinations of high coverage and efficacy, this time rose from roughly 15 days in the unvaccinated pre-Delta benchmark to the order of 1,000 days (Zachreson et al., 2022). This is a comparison of risks, not a date on which an outbreak is predicted to happen.\nThose waiting times depend on the arrival conditions. The community scenarios assumed 3,000 arrivals each week and a base infection prevalence of 10%, with vaccination affecting infection risk (Zachreson et al., 2022). Different traveller volumes, prevalence or immunity could change the timing. The useful finding is that community vaccination can strengthen the protection provided at the border, especially when vaccines strongly reduce transmission.\nThat combined protection also depends on the quarantine facility. The main model assumes strong infection control, fixed vaccine efficacy and no waning within each scenario. When infection control was weakened, breach risk increased. The historical calibration was also imperfect: the model produced about 20 outbreaks compared with nine reported (Zachreson et al., 2022). These limitations make the study more useful for comparing conditions than for promising how long a real community will remain outbreak-free."
+  },
+  {
+    "objectID": "posts/vaccination-border-quarantine/index.html#safer-borders-depend-on-protection-on-both-sides",
+    "href": "posts/vaccination-border-quarantine/index.html#safer-borders-depend-on-protection-on-both-sides",
+    "title": "Can vaccination make border quarantine safer?",
+    "section": "Safer borders depend on protection on both sides",
+    "text": "Safer borders depend on protection on both sides\nVaccination can make border quarantine safer, but vaccinating travellers alone cannot provide all the protection their destination needs. The study shows a benefit within quarantine, a loss of that benefit as the virus becomes more transmissible, and a further benefit when community coverage and vaccine efficacy are both high. Infection control remains part of that picture.\nFor readers weighing claims about reopening, the practical lesson is to ask what sits behind the vaccination percentage: protection against which variant, at what level of community coverage, and alongside which quarantine controls? Those questions make it easier to judge whether a claim addresses the risks to both travellers and the people they return to.\nThis Delta-era study does not establish current travel rules, individual protection or the economically best reopening policy. It does explain why vaccination and quarantine should be assessed together. The prospect of a flight home becomes safer when protection extends beyond the arriving passenger to the facility and the receiving community."
+  },
+  {
+    "objectID": "posts/vaccination-border-quarantine/index.html#research-behind-this-story",
+    "href": "posts/vaccination-border-quarantine/index.html#research-behind-this-story",
+    "title": "Can vaccination make border quarantine safer?",
+    "section": "Research behind this story",
+    "text": "Research behind this story\n\n\nHe, X., He, C., Hong, W., Zhang, K., & Wei, X. (2021). The challenges of COVID-19 Delta variant: Prevention and vaccine development. MedComm, 2(4), 846–854. https://doi.org/10.1002/mco2.95\n\n\nTorres, I., Bellido‐Blasco, J. B., Gimeno, C., Burgos, J. S., Albert, E., Moya‐Malo, R., Gascó‐Laborda, J. C., Tornero, A., Soriano, J., Meseguer‐Ferrer, N., Martínez‐Serrano, M., Ortíz‐Rambla, J., Buj, H., Hernández, N., Peiró, S., Salas, D., Limón, R., Vanaclocha, H., Sánchez‐Payá, J., … the Valencian vaccine research program (ProVaVac) study group. (2022). SARS-CoV-2 Delta-variant breakthrough infections in nursing home residents at midterm after Comirnaty® COVID-19 vaccination. Journal of Medical Virology, 94(8), 3776–3782. https://doi.org/10.1002/jmv.27799\n\n\nZachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J., & Geard, N. (2022). COVID-19 in low-tolerance border quarantine systems: Impact of the Delta variant of SARS-CoV-2. Science Advances, 8(14), Article eabm3624. https://doi.org/10.1126/sciadv.abm3624\n\n\nBack to all stories"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "I’m Xijun Wei, a student taking ETC5523: Communicating with Data at Monash University. In this blog, I explore how research can be explained clearly to readers without a technical background. My current topic is COVID-19 border quarantine: how vaccine protection, viral transmission and community vaccination influence risk. Through this project, I am practising turning a technical report into an accessible data story, using plain language and focused visuals to connect research findings with the questions readers care about."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "COVID-19 Evidence Explained",
+    "section": "",
+    "text": "Browse articles on how vaccination, viral transmission and prevention measures shape COVID-19 risk. Each story explains the evidence, its limitations and why it matters.\n\n\n\n\n\n\n\n\n\n\n\nVaccines reduce border risks, but protection also depends on the virus and the community receiving travellers.\n\n\n\n\n\nOct 15, 2026\n\n\nXijun Wei\n\n8 min\n\n\n\n\nNo matching items\n\n\nEvidence in context. Model results help us compare scenarios. They do not establish today’s travel rules or predict an individual’s risk.\n\nMeet the author →"
+  },
+  {
+    "objectID": "index.html#covid-19-research-stories",
+    "href": "index.html#covid-19-research-stories",
+    "title": "COVID-19 Evidence Explained",
+    "section": "",
+    "text": "Browse articles on how vaccination, viral transmission and prevention measures shape COVID-19 risk. Each story explains the evidence, its limitations and why it matters.\n\n\n\n\n\n\n\n\n\n\n\nVaccines reduce border risks, but protection also depends on the virus and the community receiving travellers.\n\n\n\n\n\nOct 15, 2026\n\n\nXijun Wei\n\n8 min\n\n\n\n\nNo matching items\n\n\nEvidence in context. Model results help us compare scenarios. They do not establish today’s travel rules or predict an individual’s risk.\n\nMeet the author →"
+  }
+]

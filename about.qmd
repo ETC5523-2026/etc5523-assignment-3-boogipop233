@@ -1,13 +1,17 @@
 ---
-title: "About"
-image: profile.jpg
+title: "About me"
+subtitle: "Xijun Wei"
+image: 99eed338d6c2046aa13826fa391e193.jpg
+image-alt: "Portrait of Xijun Wei"
 about:
   template: jolla
+  image-shape: round
+  image-width: 11em
   links:
     - icon: github
-      text: Github
-      href: https://github.com/etc5523-2022
+      text: GitHub
+      href: https://github.com/Boogipop233
 
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+I'm Xijun Wei, a student taking ETC5523: Communicating with Data at Monash University. In this blog, I explore how research can be explained clearly to readers without a technical background. My current topic is COVID-19 border quarantine: how vaccine protection, viral transmission and community vaccination influence risk. Through this project, I am practising turning a technical report into an accessible data story, using plain language and focused visuals to connect research findings with the questions readers care about.

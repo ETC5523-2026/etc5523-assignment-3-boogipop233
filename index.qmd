@@ -1,14 +1,32 @@
 ---
-title: "ETC5523 Blog Assessment"
+title: "COVID-19 Evidence Explained"
+subtitle: "A research blog by Xijun Wei"
+description: "A student blog translating COVID-19 research into clear explanations and data visualisations for readers without a technical background."
+body-classes: home-page
 listing:
-  contents: posts
-  sort: "date desc"
+  id: stories
+  contents: posts/**/index.qmd
   type: default
-  categories: true
+  fields: [image, title, description, date, author, reading-time]
+  sort: "date desc"
+  image-height: 210px
+  categories: false
   sort-ui: false
   filter-ui: false
-page-layout: full
-title-block-banner: true
+page-layout: article
+title-block-banner: "#e8f0ee"
 ---
 
+## COVID-19 research stories
+
+Browse articles on how vaccination, viral transmission and prevention measures shape COVID-19 risk. Each story explains the evidence, its limitations and why it matters.
+
+::: {#stories}
+:::
+
+::: {.home-note}
+**Evidence in context.** Model results help us compare scenarios. They do not establish today's travel rules or predict an individual's risk.
+:::
+
+[Meet the author →](about.qmd){.author-link}
 
